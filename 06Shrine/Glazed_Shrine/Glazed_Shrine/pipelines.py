@@ -54,7 +54,7 @@ class PathShrinePipeline(object):
             "\npipeline_use_num":sysItem['pipeline_use_num'],
             "\nget_time":time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())),
         }
-        self.file = codecs.open(os.path.join(itemItem['save_path'],'DATA_SAVE.json'), 'wb', encoding='utf-8')
+        self.file = codecs.open(os.path.join(itemItem['save_path'],'DATA_SAVE.txt'), 'wb', encoding='utf-8')
         self.file.write(str(DATA_SAVE).replace(r'\n','\n\n').replace(r'\u3000',' '))
 
         #写入图片
