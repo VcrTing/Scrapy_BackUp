@@ -30,7 +30,7 @@
         在scrapy中结合beautifulsoup、selenium+phantomjs、mongodb
         学习使用scrapy反爬虫
     
-        项目：爬取腾讯招聘网站、scrapy的斗鱼TV直播信息
+        项目：爬取腾讯招聘网站、scrapy的斗鱼TV直播信息、豆瓣电影top250、东莞阳光问政
 
 ----------------------------------------tag----------------------------------------  
 05Sugar：
