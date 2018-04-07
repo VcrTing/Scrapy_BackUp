@@ -1,0 +1,61 @@
+{'
+
+item_title': 'Locale Emulator 乱码转区工具 V1.0.8.0', '
+
+item_content': '很多人都遇到日文游戏打开后乱码的问题，之前有NTLEA、APP等软件，不过这些软件貌似现在已经停止更新了。
+
+今天由Paddy Xu开发的一个程序转区工具，由软件作者发邮件给我，说这程序，已经经过他的开发，完全超越了APP、NTLEA等转区软件，而且，该软件还支持最新的windows8.1系统，当然win7也是支持的。经过我的使用了一番之后，果然很不错，所以在此向大家推荐一下。', '
+
+item_url': 'https://www.llss.pw/wp/43795.html', '
+
+item_type': '游戏', '
+
+comment_num': '回复', '
+
+item_time': '2013年12月27日', '
+
+item_author': 'Youand', '
+
+rsc_msg_all': ['很多人都遇到日文游戏打开后乱码的问题，之前有NTLEA、APP等软件，不过这些软件貌似现在已经停止更新了。', '
+
+今天由', '开发的一个程序转区工具，由软件作者发邮件给我，说这程序，已经经过他的开发，完全超越了APP、NTLEA等转区软件，而且，该软件还支持最新的windows8.1系统，当然win7也是支持的。经过我的使用了一番之后，果然很不错，所以在此向大家推荐一下。', '
+
+', ' 是运行在 Windows 7 和 Windows 8/8.1 及以上系统下的一个软件，可以提供类似 NTLEA 和 AppLocale 的转区功能：即将系统区域设置（包括语言，时区，代码页等）虚拟为目标系统（例如日本区域）。乐观来讲，使用本工具加载运行的程序会把你的系统错认为所模拟的系统。这在运行很多限制地区发行的程序（例如 Galgame 或网游）时十分有用，免去了手动切换区域之苦。', '本工具内核部分为 Amano 所写，稳定性和兼容性较 AppLocale 和 NTLEA 高不少。更重要的是，LE 兼容 UAC，UAC 开启或关闭不影响本工具效果。', '注意：本程序只支持 32 或 64 位系统下的 32 位程序。换句话说，如果你装了 64 位的 WinRAR，那么在 RAR 文件上是不会出现右键菜单的——除非你换用 32 位 WinRAR。 (一句话概括：不支持 原生64位游戏程序)', '已知 avast! 的行为防护会造成 LE 加载失败，请关闭 avast! 行为防护功能。', '如果你使用某些 “优化工具” 清理过注册表，那么你可能在运行时遇到 “', '” 错误。', '
+
+请咒骂 “优化工具” 作者，下载并导入 “程序下载地址” 里的 “Time Zones.zip”。', '某些杀毒软件可能会提示 LocaleEmulator.dll 有病毒，这个我也没办法，请自行取舍……', '如果是大陆的MEGA打不开，可以使用以下本站提供的备胎', '
+
+1）解压到一个安全的目录', '
+
+2）运行 LEInstaller.exe，点击 Install 按钮。', '
+
+3）右键单击任意文件。', '
+
+Q: 这东西怎么用？', '
+
+A: 右键单击文件，选择 Run in Japanese 即可。', 'Q: 英文的 Run in Japanese 看着难受，能改吗？', '
+
+A: 点击“管理通用配置列表”（Edit Global Profile List），点“另存为”（Save as）。', 'Q: “此程序的配置”（Application Profile）是干啥的？', '
+
+A: 当你的某个程序需要用参数才能运行时，请用这个方式运行。另外，快捷方式也是在这里建立的。', 'Q: 我想建一个桌面快捷方式。', '
+
+A: 右键，“修改此程序的配置”（Modify Application Profile），“保存”（Save）。', 'Q: Run in Japanese 在子菜单里，我想把它挪到顶层去。', '
+
+A: “管理通用配置列表”（Edit Global Profile List），选中“在一级菜单中显示此配置”（Show this profile in main menu）。', 'Q: CREATE_SUSPENDED 是干嘛的？', '
+
+A: 调试时便于挂钩的，一般人用不到。', 'Q: 我不想用自带的右键菜单了，我想用简单的', '
+
+A: 把下面的 .reg 文件中第一个红色部分修改为自己的目录，第二个红色部分修改为想要的配置文件的 Guid（可在 LEConfig.xml 中找到），然后导入：', '发现了一个 BUG？发现有个程序不能用？有一个建议？想要把 LE 翻译成日语韩语老毛子语？', '
+
+请在以下方式中任选一个来反馈：', '
+
+1）在此写下 Issue：https://github.com/xupefei/Locale-Emulator/issues', '
+
+2）发 PO 给这个人：http://google.com/+PaddyXu/', '开发者补丁、历史版本、'], '
+
+ratings_num': '4.95', '
+
+img_path': '/home/vcrting/文档/Scrapy/06Shrine/Glazed_Shrine/Glazed_Shrine/DATA_SAVE/游戏/第37页/[2013年12月27日]Locale Emulator 乱码转区工具 V1.0.8.0/img', '
+
+pipeline_use_num': 1154, '
+
+get_time': '2018-04-06 23:12:49'}

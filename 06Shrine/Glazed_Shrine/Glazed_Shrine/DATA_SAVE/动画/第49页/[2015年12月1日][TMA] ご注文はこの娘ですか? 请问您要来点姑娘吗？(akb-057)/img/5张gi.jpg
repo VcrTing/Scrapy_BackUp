@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv=refresh content="5;url=http://www.comicst.com" content="text/html; charset=gbk">
+<title>漫社堂提醒您访问出错~\(≧▽≦)/~啦啦啦</title>
+<style type="text/css">
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.wrap{
+	width:1000px;
+	margin:0 auto;
+}
+.logo{
+	width:430px;
+	position:absolute;
+	top:25%;
+	left:35%;
+}
+.a{color: #fff;text-decoration: initial;padding: 0px 24px;
+  border-right: 1px solid #ddd;}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+    <div class="logo">
+        <img src="./404/404.png" alt=""  />
+        <div style="background: #aaa;padding: 5px;text-align: center;"><a href="http://www.comicst.com" class="a">首页</a><a class="a" href="http://msq.comicst.com">漫社区</a><a class="a" href="http://news.comicst.com">动漫资讯</a><a class="a" href="http://qd.comicst.com" style="border-right:none;">签到</a></div>
+		<div style="text-align:center;margin-top: 8px;"><img src="http://www.comicst.com/template/come_activity/comeing/logo.png"></div>
+    </div>
+</div>
+
+</body>
+</html>

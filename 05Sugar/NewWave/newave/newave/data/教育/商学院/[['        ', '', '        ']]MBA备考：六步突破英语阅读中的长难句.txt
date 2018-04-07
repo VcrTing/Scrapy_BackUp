@@ -1,0 +1,50 @@
+　　管理类联考英语中，长难句比比皆是。对于长难句的分析来说，首先要找到主句的主体部分（即主语、谓语和宾语），再确定从句的主体部分，如果从句中还有从句，再确定下面一层从句的主、谓、宾。阅读时一层一层进行，先把同一层次的内容看完，再看下一层次的内容。想突破MBA
+英语难句，可从下面几点着手。
+　　1。寻找谓语动词
+　　如果找到了谓语动词，就说明有句子存在。那么，如何寻找谓语动词呢？记住：有时态的动词就一定是谓语，但是要弄清非谓语动词和谓语动词的区别。接着，顺着谓语动词往前找，如果有引导词存在的话，说明这个谓语动词所在的句子就是个从句，再根据引导词前的单词判定这是个什么从句：
+　　1） 如果引导词前面是个名词，则要根据情况来判断是定语从句还是同位语从句；
+　　2） 如果引导词前面是实义动词，说明这个从句是宾语从句；
+　　3） 如果引导词前面是系动词，说明这个从句是表语从句；
+　　4） 如果谓语动词前面是状语从句的引导词，说明这个从句是状语从句；如果顺着谓语动词往前找，却没有引导词，说明这是主句的谓语动词，那么它的前面就是主语，后面就应该是宾语或表语了。
+　　真题再现
+　　This alone demonstrates that the television business is not an easy world to survive in，a fact underlined by statistics that show that out of eighty European television networks no less than 50% took a loss in l989。（2005 年英译汉）
+　　2。寻找并列连词
+　　常见的并列连词有：and、but、yet、or、so、for、not only…but also…、neither…nor 等等。有这些单词的句子里一般就有并列结构存在，并且很可能存在着省略现象，因此注意要推断出省略的成分。
+　　真题再现
+　　They are the possessions of the autonomous（self-governing） man of traditional theory，and they are essential to practices in which a person is held responsible for his conduct and given credit for his achievements。 （2002 年英译汉）
+　　3。寻找引导词
+　　从句就是”引导词+句子”，所以，找到引导词就找到了从句，再根据引导词前的单词确定其是什么从句。名词性从句的连接词：that、what（ever）、who（ever）、where、when、why、how、whether。 。 。or not等。定语从句的关系代词和关系副词：that、which、who、whom、whose、as、when、where、why 等。状语从句的关系连接词：when、while、as、though、although、where、even if等。
+　　真题再现
+　　Whorf came to believe in a sort of linguistic determinism which，in its strongest form，states that language imprisons the mind， and that the grammatical patterns in a language can produce far-reaching consequences for the culture of a society。 （2004 年英译汉）
+　　4。寻找名词
+　　一般的长句子中，名词一般作主语或宾语，其后一般都有修饰限定成分，即定语或同位语。
+　　真题再现
+　　Pearson has pieced together the work of hundreds of researchers around the world to produce a unique millennium technology calendar that gives the latest dates when we call expect hundreds of key breakthroughs and discoveries to take place。 （2001 年英译汉）
+　　5。确认非谓语和独立主格结构
+　　一个句子的主句最重要的特征就是有完整的主谓结构，尤其是要有独立的谓语部分。do/does和is/am/are的各种时态变化都可以作谓语，但是单纯的to do/doing/done和to be/being的形式是不可以作谓语的。一个看似句子的结构。如果没有独立的谓语部分，那它就不是一个句子，而是分词短语或者独立主格结构。
+　　经典例句
+　　With as many as 120 varieties in existence，discovering how cancer works is not easy。
+　　6。确认各种复杂结构
+　　英语复合句中存在很多的复杂结构，如倒装、强调、省略、插人等等。首先要了解认识这些结构的特点，其次要会确认和应对。比如说插人结构，读句子时，先不要理会插入语，先把主句的意思看完，然后再看插入部分。
+　　经典例句
+　　Today，stepladders carry labels several inches long that warn，among other things，that you might surprise。
+
+					
+
+					
+
+				
+（收录
+所大学、
+个专业分数线信息、
+名专家为您服务）
+三步报志愿
+分数线查询
+找专家报志愿
+
+            
+ Copyright 
+ 1996-2015 SINA Corporation, All Rights Reserved 
+ 新浪公司 
+
+http://edu.sina.com.cn/bschool/2015-01-17/1019455016.shtml

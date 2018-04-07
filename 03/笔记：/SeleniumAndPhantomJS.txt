@@ -1,0 +1,65 @@
+
+----------------------------------------tag----------------------------------------
+Selenium是一个web自动化测试工具，可以按指定命令自动操作，支持所有主流浏览器（包括PhantomJS）
+
+ta可以让浏览器自动加载也页面，获取需要的数据，甚至页面截屏，或者判断网站上某些动作是否发生
+
+ta自己不带浏览器，有时候需要让ta内嵌在代码中运行，所以我们可以用一个叫PhantomJS的工具代替真实浏览器
+
+----------------------------------------tag----------------------------------------
+PhantomJS是一个基于Webkit的无界面浏览器，它会把网站加载到内存并执行页面上的javascript因为不会展示图形界面
+，所以运行起来比完整的浏览器要高效
+
+如果我们把Selenium与PhantomJS结合在一起，就可以运行一个非常强大的网络爬虫来，这个爬虫
+可以处理javascript,cookie,headers以及任何我们需要做的事情！！！
+
+----------------------------------------tag----------------------------------------
+Selenium小知识：
+0、获取页面html：
+html = driver.page_source
+1、
+获取页面某个元素的属性值：
+str = driver.find_element_by_xpath('Xpath').get_attribute("attrName（for example:data-id）")
+执行按钮点击：
+driver.find_element_by_class_name('btn').click()
+向input框发送文本：
+driver.find_element_by_id('username').send_keys('13576639986')
+2、
+执行js语句
+driver.execute_script(js_code)
+3、
+获取图片：俺是先获取img的src，然后根据url下载到本地。
+4、
+获取登录cookie:
+cookies = driver.get_cookies()
+# str类型
+def getCookie(cookies):
+    cookie_list =[]
+    for i in cookies:
+        cookie =i['name']+'='+i['value']
+        cookie_list.append(cookie)
+    cookie_str = ';'.join(cookie_list)#获取到Cookie后进行拼接
+    return cookie_str
+cookies = getCookie(cookies)
+
+----------------------------------------tag----------------------------------------
+Selenium内容简述：
+1、得到页面控件/元素
+
+2、往元素写入值，或为元素执行某事件
+
+3、根据选择器得到元素/控件
+
+4、解决页面是Ajax取值时，采集内容难度大的问题
+
+5、网页上搜索一个单词并确认有相应的搜索结果
+
+6、滚动到页面的底部，截取网站图片
+
+7、登录某个网站，获得cookie
+
+----------------------------------------tag----------------------------------------
+课程例子：
+1、登录豆瓣并且获取登录后的cookie
+2、控制斗鱼网站，有意思：该网站在直播url下的页面数据加载形式为Ajax异步加载，若点击翻页，url无变化！
+只不过是让前端稍微改变，Ajax继续获取数据而已，猜测是用js来控制数据加载量！！！

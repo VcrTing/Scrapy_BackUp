@@ -1,0 +1,25 @@
+{'
+
+item_title': '使用Calibre管理你的本子——第二季', '
+
+item_content': '在 上次的文章 中，我大致介绍了如何使用Calibre来管理本子。', '
+
+item_url': 'https://www.llss.pw/wp/54512.html', '
+
+item_type': '文章', '
+
+comment_num': '30', '
+
+item_time': '2017年10月21日', '
+
+item_author': 'bgme', '
+
+rsc_msg_all': ['在 ', ' 中，我大致介绍了如何使用Calibre来管理本子。', '使用Calibre管理本子，好处不少，但就是录入的过程太麻烦。如果本子少那还好说，如果本子多的话，一个个录入要录入到什么时候？', '对于这个问题，也有相应的解决方案。现在让我来介绍，我是如何批量录入本子的。', '使用方法，打开Calbire的 ', ' 界面，在 ', ' 栏中填入下方的正则表达式。', '保存设置后，可以开始向Calibre书库中添加书籍，Calibre会自动识别出题名与作者。', '(?P<comments>.*?\\[(?P<author>(?:(?!汉化|漢化)[^\\[\\]])*)\\](?:\\s*(?:\\[[^\\(\\)]+\\]|\\([^\\[\\]\\(\\)]+\\))\\s*)*(?P<title>[^\\[\\]\\(\\)]+).*)'], '
+
+ratings_num': '4.67', '
+
+img_path': '/home/vcrting/文档/Scrapy/06Shrine/Glazed_Shrine/Glazed_Shrine/DATA_SAVE/文章/第2页/[2017年10月21日]使用Calibre管理你的本子——第二季/img', '
+
+pipeline_use_num': 1833, '
+
+get_time': '2018-04-07 00:50:28'}

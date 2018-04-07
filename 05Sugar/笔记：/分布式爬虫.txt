@@ -1,0 +1,84 @@
+
+----------------------------------------tag----------------------------------------
+redis + scrapy = 分布式爬虫
+
+Message = netstat -nlt|grep 6379
+
+result = tcp        0      0 127.0.0.1:6379          0.0.0.0:*               LISTEN 
+
+----------------------------------------tag----------------------------------------
+安装redis: https://www.cnblogs.com/zongfa/p/7808807.html
+卸载redis:
+redis集群：[ERR] Sorry, can't connect to node 127.0.0.1:6000
+how to do???
+
+----------------------------------------tag----------------------------------------
+scrapy-redis替换scrapy的一些thins，让scrapy有分布式的能力:
+
+scrapy-redis有以下几个方法：
+    Scheduler : Worker
+    Duplication Filter : Filter the Data
+    Item Pipeline : Data control 
+    Base Spider : Change Spider Type
+
+所有Scrapy 共享一个 Redis，then 从Redis中取出Data，Save in Mongo or Mysql
+
+----------------------------------------tag----------------------------------------
+去重：
+Python : Set 
+Redis : Set！！！
+
+----------------------------------------tag----------------------------------------
+Spider Type:
+    RedisSpider
+    RedisCrawlSpider
+
+----------------------------------------tag----------------------------------------
+分布式爬虫需要一定的硬件水平，各带宽也要不同
+
+----------------------------------------tag----------------------------------------
+分布式爬虫：https://www.bilibili.com/video/av17647745/?p=54
+
+settings
+    DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter" 
+        => change dtatFilter to RFPDupeFilter
+    SCHEDULER = "scrapy_redis.scheduler.Scheduler" 
+        => change scrapy.scheduler to redis.scheduler
+    SCHEDULER_PERSIST = True 
+        => when you stop the scrapy, the redis connect don't be stop!!
+
+    SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"
+        => Set Default scrapy-redis Request Queue
+    #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderQueue"
+        => Set it be Queue Type, first in first out
+    #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderStack"
+        => Set the request set Type, first in last out
+
+    REDIS_HOST = '127.0.0.1'
+    REDIS_PORT = 6379
+    REDIS_URL = 'redis://user:ZT123zlt@localhost:6379'（通常设置这项）
+
+    ITEM_PIPELINES = {
+    'example.pipelines.ExamplePipeline': 300,
+    'scrapy_redis.pipelines.RedisPipeline': 400,
+    }   => Set the data save in Redis
+
+Pipeline:
+    def process_item(self, item, spider):
+        item["crawled"] = datetime.utcnow()
+        item["spider"] = spider.name
+        return item
+            => You must write there in you pipeline.py
+
+----------------------------------------tag----------------------------------------
+Spider:
+    #启动所有slaver端爬虫，建议采用这种格式
+    redis_key = 'myspider:start_urls'
+
+    运行分布式爬虫：scrapy runspider Name.py
+    然后进入redis的user:Password@ip:port下
+    输入lpush RedisKey:KeyName startUrl（如：lpush myspider:start_urls https://www.dmoz.org/）
+
+----------------------------------------tag----------------------------------------
+课程案例：
+https://www.youyuan.com/find/beijing/mm18-25/advance-0-0-0-0-0-0-0/p1

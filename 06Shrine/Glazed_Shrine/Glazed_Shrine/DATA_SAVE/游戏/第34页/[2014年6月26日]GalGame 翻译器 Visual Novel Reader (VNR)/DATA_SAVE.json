@@ -1,0 +1,81 @@
+{'
+
+item_title': 'GalGame 翻译器 Visual Novel Reader (VNR)', '
+
+item_content': '
+
+Visual Novel Reader (VNR)是一个帮助不熟悉日语的同学阅读日文的visual novel（VN），以及分享快乐的windows软件。 通过这个软件，可以将机翻和人工翻译的字幕，以及其他同学的评论显示在游戏旁边。', '
+
+item_url': 'https://www.llss.pw/wp/48906.html', '
+
+item_type': '游戏', '
+
+comment_num': '2', '
+
+item_time': '2014年6月26日', '
+
+item_author': 'Youand', '
+
+rsc_msg_all': ['
+
+Visual Novel Reader (VNR)是一个帮助不熟悉日语的同学阅读日文的visual novel（VN），以及分享快乐的windows软件。 通过这个软件，可以将机翻和人工翻译的字幕，以及其他同学的评论显示在游戏旁边。', '该软件优点', '1、GAL游戏管理器 Spring Board', '
+
+2、丰富的GAL资料库 提供。因为连接了各大日本网站搜集资源，所以基本上网络上的GAL资源情报都有。包括当前游戏详细情报匹配。', '
+
+3、弹幕和文本字幕改良功能。由于可以连接服务器，你可以同时看到在线玩相同GAL的人数，以及老玩家对某句话的翻译改良或者弹幕吐槽。你也可以自己试着改进翻译，运气好的话说不定你玩的游戏已经被人翻译过了（<ゝω•）~☆', '
+
+4、辞典和翻译引擎众多，可以选择性比较', '
+
+5、附带语音朗读功能，帮助朗读旁白或者男主的文本。', '兼容三个日文转码转区软件。', '
+
+单独的游戏讨论页面，不过人太少没人用，不如贴吧= =', '
+
+最后这是国产软件，不过不是大陆人做的0 0', '
+
+实际效果一览', '需要先下载DirectX 修复工具', '安装vnr所需的软件：C++ 2008 SP1 Redistributable、C++ 2010 可再发行组件包', '
+
+windows8 运行DirectX_Repair_win8.exe，其余请运行DirectX_Repair.exe。', '软件本体', '安装教程：', '下载解压到纯英文路径的文件夹', '
+
+运行update.exe 更新文件', '
+
+选择简体中文，并注册用户', '在翻译中安装各种需要的辞典，因为是自动傻瓜安装，不上图了。', '
+
+然后启动游戏即可。', '
+
+有的游戏比较特殊，文本需要特殊的H特殊码，软件里有介绍这里略过不讲。', '
+
+如果不需要日文，可以再侧边栏的选项卡里取消，这个配合罗马音方便学日语用。', '其他一些关于VNR的帮助：http://sakuradite.com/wiki/zh/VNR', '
+
+', '
+
+', '
+
+', '
+
+', '
+
+', 'VNR并不是VN的万灵药，软件本身还有很多的局限。 首先，绝大部分VN不会有人工翻译，而机器翻译的质量往往差强人意。 即便有来自其他同学的人工翻译，显示翻译的质量通常比不上需要修改游戏文件的补丁的翻译。', '如果你把阅读VN当做很认真的事情，很看重VN的剧情，那么VNR也许并不能满足你的需要 T T 但是如果你阅读VN只是为了娱乐，对翻译文字没有很高的要求，或者你对日文并不陌生，或者你希望和别人分享对VN的感情，或者你不希望补丁污染了游戏的文件（好像那些喜欢外挂字幕而讨厌内嵌字幕的同学），那么VNR也许能帮助你更好的阅读VN。', '你可以在这里下载到最近的版本，再运行Update.exe更新到最新的版本：\r
+
+\r
+
+Google Drive: http://goo.gl/t31MqY\r
+
+Baidu Disk: http://pan.baidu.com/s/1jGftD9W\r
+
+Baidu 备份：http://pan.baidu.com/s/1sjpYV4x 密码: 56el\r
+
+\r
+
+http://sakuradite.org/reader.7z\r
+
+\r
+
+'], '
+
+ratings_num': '4.74', '
+
+img_path': '/home/vcrting/文档/Scrapy/06Shrine/Glazed_Shrine/Glazed_Shrine/DATA_SAVE/游戏/第34页/[2014年6月26日]GalGame 翻译器 Visual Novel Reader (VNR)/img', '
+
+pipeline_use_num': 1393, '
+
+get_time': '2018-04-06 23:43:02'}

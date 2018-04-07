@@ -1,0 +1,18 @@
+
+----------------------------------------tag----------------------------------------
+把图片翻译成文字的一般称为光学文字识别（Optical Character Recognition）
+Tesseract库！
+ubuntu安装tesseract-ocr:sudo apt-get tesseract-ocr
+
+安装tesseract-ocr步骤：
+https://www.cnblogs.com/hupeng1234/p/7136442.html
+https://blog.csdn.net/u013985291/article/details/78113857
+http://www.360doc.com/content/18/0122/16/51390869_724175216.shtml
+
+ubuntu配置环境变量
+export XX='路径';$PATH
+删除环境变量：不会
+刷新：sudo ~/.bashrc
+
+安装好后的使用：
+最终未安装成功！！！

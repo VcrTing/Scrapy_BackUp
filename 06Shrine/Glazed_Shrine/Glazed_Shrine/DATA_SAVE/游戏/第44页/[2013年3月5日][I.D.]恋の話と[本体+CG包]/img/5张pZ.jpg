@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>レンタルサーバならFC2レンタルサーバーLite｜格安大容量！</title>
+<meta name="description" content="FC2レンタルサーバーLiteは月額250円で5GB・メール300アカウント！簡単・安心・コンパクトなレンタルサーバーです。" />
+<meta name="abstract" content="FC2レンタルサーバーLiteは月額250円で5GB・メール300アカウント！簡単・安心・コンパクトなレンタルサーバーです。" />
+<meta name="keywords" content="レンタルサーバー,レンサバ,格安,サーバー,ホスティング,ホームページ,FC2,lite,ライト" />
+<meta name="author" content="FC2.inc" />
+<meta name="copyright" content="Copyright c 1999- inc. All Rights Reserved." />
+<link rel="shortcut icon" type="image/ico" href="//static.fc2.com/share/image/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="//static.fc2.com/share/css/common.css" />
+<link rel="stylesheet" type="text/css" href="//static.fc2.com/share/fc2parts/css/share.css" />
+<style type="text/css">
+a,
+a:link,
+a:visited {
+	color:#1941c2;
+}
+a:hover,
+a:active {
+	color:#EC4645;
+}
+
+#container{
+	width:900px;
+	margin:0 auto;
+	position:relative;
+	margin-bottom:3.0em;
+}
+
+#main_users{
+	width:680px;
+	margin:0 auto;
+	text-align:left;
+	overflow:hidden;
+}
+
+
+#sh_header h1 a{
+	float:left;
+	display:block;
+	width:440px;
+	text-align:left;
+	text-decoration:none;
+	color:#333;
+	font-size:27px;
+	font-family:Arial black;
+	margin-top:12px;
+	background:url(//static.fc2.com/share/fc2parts/image/fc2logo.png) no-repeat 0 1px;
+}
+#sh_header h1 a span{
+	margin-left:94px;
+	*padding-top:6px;/* IE7fix */
+}
+#sh_header h1 .logo{background:url(../img/rslite_logo.png) right top no-repeat; vertical-align:middle; width:30px; height:40px;}
+#sh_header #ad_banner468x60{text-align:right; top:26px;}
+
+p.page_guide{
+	margin:0 15px 20px;
+}
+
+div.adbox{
+	text-align:center;
+}
+p.adbox_title{
+	margin:0 15px 10px;
+}
+
+</style>
+<script type="text/javascript" src="//static.fc2.com/share/fc2parts/js/jquery.js"></script>
+<script type="text/javascript" src="//static.fc2.com/share/fc2parts/js/common_design.js"></script>
+</head>
+<body>
+
+<!-- sh_header_box -->
+<div id="sh_header_box">
+	<div id="sh_header_col">
+		<div class="sh_search">
+		</div>
+		<div class="sh_header_nav">
+			<ul>
+			<li class="end"><a href="http://fc2-rentalserver.com/index.html">レンタルサーバーLite TOP</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- /sh_header_box -->
+
+<!-- container -->
+<div id="container" class="clear">
+	<!-- sh_header -->
+	<div id="sh_header">
+		<h1><a href="http://fc2-rentalserver.com/index.html" title="FC2レンタルサーバーlite"><span>レンタルサーバーLite<img alt="レンタルサーバーLiteロゴ" width="30" height="30" src="//static.fc2.com/share/fc2footermenu/blank.gif" class="logo" /></span></a></h1>
+		<div id="ad_banner468x60">月額250円～で5GB・メールアカウント300個！<br />カンタン・安心・コンパクト、FC2レンタルサーバーLite　</div>
+	</div>
+	<!-- /sh_header -->
+
+	<!-- main -->
+	<div id="main_users" class="clear">
+		<h2 class="sh_heading_main_b"><span>404 Not Found</span></h2>
+		<p class="page_guide">
+			ページが見つかりません
+		</p>
+
+		<div class="adbox">
+		<p class="adbox_title">[PR]</p>
+<iframe src='//assys01.fc2.com/1202' style='width:300px;height:250px;border:none;' scrolling='no'></iframe>
+<!-- FC2管理用 -->
+<img src="//media.fc2.com/counter_img.php?id=2522" width="1" height="1">
+<!-- FC2管理用 -->
+		</div>
+	</div>
+	<!-- /main -->
+
+</div>
+<!-- /container -->
+
+<!-- ja版共通フッタここから -->
+<div id="sh_fc2footer_fix">
+	<div id="sh_fc2footer_menu">
+		<div id="sh_fc2tooter_tab">
+			<div><span class="sh_footer_rnd5"></span><span class="sh_footer_rnd4"></span><span class="sh_footer_rnd3"></span><span class="sh_footer_rnd2"></span><span class="sh_footer_rnd1"></span></div>
+			<ul>
+				<li class="sh_request"><a href="http://request.fc2.com/search_wish.php?ct1=68" title="FC2リクエストへ">リクエスト</a></li>
+				<li class="sh_kiyaku"><a href="http://help.fc2.com/lite/tos/ja/#service_lite" title="サービス利用規約へ">利用規約</a></li>
+				<li class="sh_shogai"><a href="http://fc2support.blog85.fc2.com/">障害情報</a></li>
+				<li class="sh_pagetop"><a href="javascript:scroller(0);" title="このページの先頭へ">ページトップへ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="sh_fc2footer">
+		<div id="sh_fc2footermenu">
+			<ul>
+				<li><a href="http://fc2.com/" title="FC2ホームへ"><img src="//static.fc2.com/share/fc2parts/image/fc2logo.png" alt="FC2ホームへ" class="fc2top" /></a></li>
+				<li>
+					<form action="//help.fc2.com/search/qa" method="get" target="_blank">
+						<img src="//static.fc2.com/share/fc2parts/image/sh_help_icon.gif" width="20" height="20" alt="" /><a href="http://help.fc2.com/lite/" target="_blank">FC2ヘルプ</a>
+						<input type="text" name="q" class="help_form_tetarea" /><input type="hidden" name="service_id" value="40" /><input type="submit" value="ヘルプ検索" />
+					</form>
+				</li>
+				<li><a href="http://help.fc2.com/inquiry">お問い合わせ</a></li>
+				<li class="information"><a href="http://fc2.com/company.html" rel="nofollow">会社概要</a></li>
+				<li><a href="http://fc2.com/privacy.html" rel="nofollow">プライバシーポリシー</a></li>
+				<li><a href="http://help.fc2.com/copyrights/tos/ja" rel="nofollow">著作権ガイドライン</a></li>
+				<li><a href="http://fc2.com/ja/sales.html" rel="nofollow">広告掲載</a></li>
+			</ul>
+			<p class="copyright">Copyright(c)1999 FC2, Inc. All Rights Reserved.</p>
+		</div><!-- /sh_fc2footermenu -->
+	</div><!-- /sh_fc2footer -->
+</div><!-- /sh_fc2footer_fix -->
+<!-- /ja版共通フッタ -->
+
+</body>
+</html>

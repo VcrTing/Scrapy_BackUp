@@ -1,0 +1,23 @@
+
+----------------------------------------tag----------------------------------------
+字符串\r\n\t转义：
+    str = '\r\n\tabc'(将\r\n\t（原生字符串）转为有意义的字符串格式)
+    str.replace(r'\r','\r').replace(r'\n','\n').replace(r'\t','\t')
+
+----------------------------------------tag----------------------------------------
+错误：POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
+解决：data = urllib.parse.urlencode(postFormData).encode(encoding='utf-8')
+
+----------------------------------------tag----------------------------------------
+urllib.request.urlopen(request)
+values[i] = one_value.encode('latin-1')
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u2026' in position 30: ordinal not in range(256)
+解决：使用requests，url就可以写中文
+
+----------------------------------------tag----------------------------------------
+f.write(image)
+TypeError: a bytes-like object is required, not '_io.BytesIO'
+解决：百度=python3 requests保存图片
+
+----------------------------------------tag----------------------------------------
+你的多线程爬虫未完成哦～

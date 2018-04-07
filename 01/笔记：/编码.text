@@ -1,0 +1,22 @@
+汉字是以每三个unicode码组成的，比如‘传’ = %E4%BC%A0,
+你可以使用在线解码网站进行转码、
+你还可以使用urllib.urlencode({'wd':'帅哥加油！'})进行转码
+
+python2:
+urllib.urlencode()函数，帮我们将{key:value}这样的键值对转换成'key=value'这样的字符串（注意不是urllib2.urlencode()）
+urllib.unquote()函数，帮我们将'key=value'这样的字符串转回去
+python3:
+urllib.parse.urlencode()与urllib.parse.unquote()
+
+----------------------------------------tag----------------------------------------
+urllib与urllib2的区别：
+1、urllib仅可以接受URL，不能创建设置headers的Request类实例
+2、urllib提供urlencode方法用来GET查询字符串的产生，而urllib2没有
+（这是urllib与urllib2经常一起使用的原因！）
+
+可以用来拼接完整的字符串。
+
+----------------------------------------tag----------------------------------------
+课程例子：
+例子1：爬取www.baidu.com/wd='传智博客'
+例子2：爬取tieba.baidu.com/f/kw='传智博客'?pn=100 -nm 200

@@ -1,0 +1,52 @@
+　　一、长难句的特点
+　　英语长句一般指的是各种复杂句，复杂句里可能有多个从句，从句与从句之间的关系可能包孕、嵌套，也可能并列或平行。从功能来说，英语有三大复合句，即：
+　　①名词性从句，包括主语从句、宾语从句、表语从句和同位语从句；
+　　②形容词性从句，即我们平常所说的定语从句；
+　　③状语从句。
+　　一般说来，英语长句有如下几个特点：
+　　（1）结构复杂，逻辑层次多；
+　　（2）常须根据上下文作词义的引申；
+　　（3）常须根据上下文对指代词的指代关系做出判断；
+　　（4）并列成分多；
+　　（5）修饰语多，特别是后置定语很长；
+　　二、考研英语难句分析类别
+　　第一类：复杂修饰成分
+　　句子本不难，但是修饰成分多且长。
+　　1、从句（定语、状语、同位语从句等）修饰；
+　　2、介词短语修饰；
+　　3、分词修饰；
+　　4、不定式修饰。
+　　经常是在同一个句子里既有从句又有介词短语，且都不止一个。
+　　例：The methods that a community devises to perpetuate itself come into being to preserve aspects of the cultural legacy that community perceives as essential。
+　　分析：主语：The methods；谓语：come into being；that a community devises to perpetuate itself为定语从句，修饰the methods；不定式to表示目的状语；that community perceives as essential为定语从句，修饰the cultural legacy。
+　　译文：一个社会设计出来保存自己的方法得以形成来保持那个社会认为最重要的一些方面。
+　　第二类：大段的插入与或同位语，打断读者的思路，割裂前后之间的语义，造成理解的困难。我们称之为“打岔”。
+　　例：Moreover， I can feel strong emotions in response to objects of art that are interpretations， rather than representations， of reality。
+　　分析：在浏览该句时，发现句子中出现了双逗号，其中间的内容rather than representations为插入语，浏览的时候先跳过。这样就可以看到把that are interpretations 和of reality连接起来了。That引导定语从句，修饰objects of art。
+　　译文：而且，我从艺术品上能够感到强烈的情感。艺术品是对现实的阐释，而非代表现实。
+　　第三类：语序调整或倒装：为了平衡句子的结构或强调一些内容，通常会人为地对句子进行句序调整。
+　　例：Nowhere do 1980 census statistics dramatize more the American search for spacious living than in the Far West。
+　　分析：否定副词nowhere放在句首，所以句子出现部分倒装。注意：more 与否定词nowhere一起使用，相当于最高级。dramatize此处的意思是“突出显示，使…戏剧化”。
+　　译文：1980年美国的人口普查数据表明，没有哪个地方比美国最西部更能突出显示美国人想寻找更广阔的生存空间。
+　　第四类：省略：相对以上三种来讲比较简单，在短句中大家一般都可以看出。
+　　但是如果在长句中出现，特别是如果与以上三种之一甚至几种同时出现，也会给同学们带来很大的困难。
+　　例：That sex ratio will be favored which maximizes the number of descendants and hence the number of gene copies transmitted。
+　　正常语序：That sex ratio which maximizes the number of descendants will be favored and hence the number of gene copies transmitted。
+　　该例句中which引导的定语从句修饰sex ratio，由于谓语句子主干较短，所以进行了后置。另外，and并列的后半句省略了主谓语that sex ratio maximizes。
+电话：400-690-0000 欢迎批评指正
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+Copyright © 1996-2018 SINA Corporation
+All Rights Reserved 新浪公司 
+
+http://edu.sina.com.cn/kaoyan/2013-04-03/1808376062.shtml

@@ -1,0 +1,271 @@
+1522585154058	geckodriver	INFO	geckodriver 0.20.0
+1522585154080	geckodriver	INFO	Listening on 127.0.0.1:37113
+1522585155040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.m4ict3hLX0EM"
+1522585160590	Marionette	INFO	Enabled via --marionette
+1522585166592	Marionette	INFO	Listening on port 34805
+1522585166746	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522585405260	geckodriver	INFO	geckodriver 0.20.0
+1522585405264	geckodriver	INFO	Listening on 127.0.0.1:39789
+1522585406275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GwLcFz6bfy4D"
+1522585407078	Marionette	INFO	Enabled via --marionette
+1522585409494	Marionette	INFO	Listening on port 42005
+1522585409600	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522585490408	geckodriver	INFO	geckodriver 0.20.0
+1522585490414	geckodriver	INFO	Listening on 127.0.0.1:55983
+1522585491426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.iRvdIl5IVNNE"
+1522585492330	Marionette	INFO	Enabled via --marionette
+1522585494842	Marionette	INFO	Listening on port 37739
+1522585494960	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522585534170	geckodriver	INFO	geckodriver 0.20.0
+1522585534175	geckodriver	INFO	Listening on 127.0.0.1:34173
+1522585535187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gLJ7uKICKrUL"
+1522585536068	Marionette	INFO	Enabled via --marionette
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522585539080	Marionette	INFO	Listening on port 33909
+1522585539108	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522585730567	geckodriver	INFO	geckodriver 0.20.0
+1522585730572	geckodriver	INFO	Listening on 127.0.0.1:44023
+1522585731573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ncV8FZVxqfbn"
+1522585732928	Marionette	INFO	Enabled via --marionette
+1522585735288	Marionette	INFO	Listening on port 33483
+1522585735394	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522585765840	geckodriver	INFO	geckodriver 0.20.0
+1522585765845	geckodriver	INFO	Listening on 127.0.0.1:43931
+1522585766853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nwtfQFx4eyAN"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522585768172	Marionette	INFO	Enabled via --marionette
+1522585770436	Marionette	INFO	Listening on port 33517
+1522585770476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522586035814	geckodriver	INFO	geckodriver 0.20.0
+1522586035819	geckodriver	INFO	Listening on 127.0.0.1:41231
+1522586036822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WlIdvhUXyKxW"
+1522586037810	Marionette	INFO	Enabled via --marionette
+1522586040546	Marionette	INFO	Listening on port 40527
+1522586040636	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522586078989	geckodriver	INFO	geckodriver 0.20.0
+1522586078994	geckodriver	INFO	Listening on 127.0.0.1:40397
+1522586079995	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZTyzaQ8I17U8"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522586081376	Marionette	INFO	Enabled via --marionette
+1522586083766	Marionette	INFO	Listening on port 39909
+1522586083818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522586127080	geckodriver	INFO	geckodriver 0.20.0
+1522586127086	geckodriver	INFO	Listening on 127.0.0.1:48209
+1522586128093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4P2tKx6hvrZP"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522586129148	Marionette	INFO	Enabled via --marionette
+1522586131776	Marionette	INFO	Listening on port 44347
+1522586131816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522586920041	geckodriver	INFO	geckodriver 0.20.0
+1522586920046	geckodriver	INFO	Listening on 127.0.0.1:41607
+1522586921055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8kapT72gpUpX"
+1522586921830	Marionette	INFO	Enabled via --marionette
+1522586924368	Marionette	INFO	Listening on port 34321
+1522586924470	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522587076360	geckodriver	INFO	geckodriver 0.20.0
+1522587076365	geckodriver	INFO	Listening on 127.0.0.1:43931
+1522587077375	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Q5DRqpEM54Vv"
+1522587078160	Marionette	INFO	Enabled via --marionette
+1522587087837	geckodriver	INFO	geckodriver 0.20.0
+1522587087844	geckodriver	INFO	Listening on 127.0.0.1:50239
+1522587088854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sFexq5UrUJ2k"
+1522587089666	Marionette	INFO	Enabled via --marionette
+1522587091936	Marionette	INFO	Listening on port 32881
+1522587091976	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522587159717	geckodriver	INFO	geckodriver 0.20.0
+1522587159722	geckodriver	INFO	Listening on 127.0.0.1:43309
+1522587160724	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9jxKAiVLjZbY"
+1522587161824	Marionette	INFO	Enabled via --marionette
+1522587164092	Marionette	INFO	Listening on port 37843
+1522587164142	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522587195726	geckodriver	INFO	geckodriver 0.20.0
+1522587195732	geckodriver	INFO	Listening on 127.0.0.1:35673
+1522587196740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EAoOUNPgk8ON"
+1522587197548	Marionette	INFO	Enabled via --marionette
+1522587199782	Marionette	INFO	Listening on port 41109
+1522587199854	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522587231923	geckodriver	INFO	geckodriver 0.20.0
+1522587231928	geckodriver	INFO	Listening on 127.0.0.1:57175
+1522587232941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.csFZjTCb8irs"
+1522587233728	Marionette	INFO	Enabled via --marionette
+1522587236036	Marionette	INFO	Listening on port 35391
+1522587236062	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1522587461530	geckodriver	INFO	geckodriver 0.20.0
+1522587461534	geckodriver	INFO	Listening on 127.0.0.1:42557
+1522587462544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wtN5zNWJMbjy"
+1522587463338	Marionette	INFO	Enabled via --marionette
+1522587465496	Marionette	INFO	Listening on port 35623
+1522587465568	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522587515586	geckodriver	INFO	geckodriver 0.20.0
+1522587515590	geckodriver	INFO	Listening on 127.0.0.1:42153
+1522587516601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SKP5oXOh8pbh"
+1522587517374	Marionette	INFO	Enabled via --marionette
+1522587519860	Marionette	INFO	Listening on port 37547
+1522587519920	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522587549363	geckodriver	INFO	geckodriver 0.20.0
+1522587549368	geckodriver	INFO	Listening on 127.0.0.1:48977
+1522587550377	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.djr1V5MNNPz6"
+1522587551162	Marionette	INFO	Enabled via --marionette
+1522587553348	Marionette	INFO	Listening on port 46335
+1522587553392	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1522587647248	geckodriver	INFO	geckodriver 0.20.0
+1522587647253	geckodriver	INFO	Listening on 127.0.0.1:51793
+1522587648262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.UOa5oN8z5Sz8"
+1522587649080	Marionette	INFO	Enabled via --marionette
+1522587651540	Marionette	INFO	Listening on port 37739
+1522587651588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522587744939	geckodriver	INFO	geckodriver 0.20.0
+1522587744944	geckodriver	INFO	Listening on 127.0.0.1:53303
+1522587745945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.F1UCNbpvAj9C"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1522587747150	Marionette	INFO	Enabled via --marionette
+1522587749442	Marionette	INFO	Listening on port 45915
+1522587749466	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522588009545	geckodriver	INFO	geckodriver 0.20.0
+1522588009550	geckodriver	INFO	Listening on 127.0.0.1:45449
+1522588010561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YJFS69dFZi02"
+1522588011338	Marionette	INFO	Enabled via --marionette
+1522588013764	Marionette	INFO	Listening on port 34599
+1522588013790	Marionette	WARN	TLS certificate errors will be ignored for this session

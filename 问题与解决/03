@@ -1,0 +1,25 @@
+Selenium官方文档：http://selenium-python-docs-zh.readthedocs.io/zh_CN/latest/index.html
+。
+
+----------------------------------------tag----------------------------------------
+Selenium驱动Chrome浏览器：
+selenium.common.exceptions.WebDriverException: Message: unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"A6ECE05BA1149AD1D66AC17645010334","isDefault":true},"id":1,"name":"","origin":"://"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.9.248304,platform=Linux 4.13.0-37-generic x86_64)
+解决：chromedriver不是最新版本，请下载合适版本（chromedriver和chrome的配套关系在下载目录的ntoes.txt中查看）
+还可以查看这个网站：https://blog.csdn.net/zj_admin/article/details/78981072获取对应关系
+查看Chrome版本，应该不用教吧！！！
+小知识：查看selenium版本：
+1、
+import selenium
+selenium.__version__
+2、ipython
+help(selenium)
+我的解决：不使用Chrome，使用要geckodriver的FireFox浏览器。
+
+----------------------------------------tag----------------------------------------
+Selenium驱动PhantomJS:
+selenium.common.exceptions.WebDriverException: Message: Error - 
+nable to load Atom 'find_element' from file ':/ghostdriver/./third_party/webdriver-atoms/find_element.js'
+解决：phantomjs安装的版本错啦，要不就是版本太老啦，
+。

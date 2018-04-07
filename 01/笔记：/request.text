@@ -1,0 +1,90 @@
+urllib2 默认的User-Agent:‘Python-urllib/2.7’。
+
+注意：
+构造header里面User-Agent必须写！！！
+Accept-Encoding的gizp解压，一定不要写，除非你本地做好了gzip解压
+Cookie用来处理登录的
+
+如果，养成好习惯，发送请求带上User-Agent！！！。
+
+----------------------------------------tag----------------------------------------
+Http响应码：
+1开头，无关就对了
+2开头，成功
+3开头，重定向相关
+4开头，服务器/页面问题，
+5开头，服务器本身问题。
+
+----------------------------------------tag----------------------------------------
+request的一些方法：
+req.Request(url,data,headers)#url链接、数据、请求头(resquest)
+req.urlopen#打开url(response)
+
+response一些方法：
+res.getcode()：获得网页响应码(int)
+res.geturl()：返回实际数据的实际url
+res.info():服务器返回的报头信息(HTMLMessage)。
+
+----------------------------------------tag----------------------------------------
+https://www.baidu.com的请求头:
+Accept、Accept-Encoding、Accept-Language、Cache-Control、Connection、
+Cookie、Host、Upgrade、User-Agent
+headers = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;"
+              "q=0.9,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Cache-Control": "max-age=0",
+    "Connection": "keep-alive",
+    "Cookie": "BAIDUID=6EA303A3D8ADF8EA008E36EB216CAC17:FG=1; "
+              "PSTM=1521707111; BIDUPSID=D338D55F7109501A82C92F3DA6E35223; "
+              "BD_UPN=123353; BDORZ=B490B5EBF6F3CD402E515D22BCDA1598; "
+              "BD_HOME=0; BD_CK_SAM=1; PSINO=7; "
+              "BDRCVFR[QxxZVyx49rf]=I67x6TjHwwYf0; "
+              "H_PS_645EC=69c6T05u9lycw2o0z0T8vuyxLFFyJvDXlnqENdCTEsNy%2Fzw4TWftXulm0vmPAL7%2BgHQNW5XMfjD16A; "
+              "H_PS_PSSID=1468_21127_18559_22158",
+    "Host": "www.baidu.com",
+    "Upgrade-Insecure-Requests": 1,
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",
+}。
+User-Agent列表,也可以是代理列表
+User-Agent-List = [
+    "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
+    "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)",
+    "Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.35; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
+    "Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)",
+    "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)",
+    "Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.0.3705; .NET CLR 1.1.4322)",
+    "Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 3.0.04506.30)",
+    "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3) Arora/0.3 (Change: 287 c9dfb30)",
+    "Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Arora/0.6",
+    "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2pre) Gecko/20070215 K-Ninja/2.1.1",
+    "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0",
+    "Mozilla/5.0 (X11; Linux i686; U;) Gecko/20070322 Kazehakase/0.4.5",
+    "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko Fedora/1.9.0.8-1.fc10 Kazehakase/0.5.6",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20",
+    "Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; fr) Presto/2.9.168 Version/11.52",
+]
+
+----------------------------------------tag----------------------------------------
+浏览器发展史：
+第一款浏览器：Mosaic
+
+Netscape 网景:Netscape(支持框架)，开始流行...
+
+Microsoft 微软:internet Explorer，内核为：()
+
+=>第一次浏览器大战，网景消失了
+
+网景重生=>Mozilla 基金组织：Firefox火狐，内核为：(Gecko内核)
+
+User Agent来决定用户的浏览器，来获得HTMl页面效果
+IE就披了个Mozilla外皮
+
+Chorme->Mac's Apple webkit->Linux's KHTML(he like Gecko)
+FIrefox->Gecko
+IE->Trident
+Opera->Presto
+
+然后别的浏览器都披Mozilla外皮,内核都为IE/Chrome的。

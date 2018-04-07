@@ -1,0 +1,25 @@
+----------------------------------------tag----------------------------------------  
+依赖安装：
+
+scrapy 1.5（这个有很多依赖安装库，建议百度scrapy安装方法）
+python 3.6.3（这个安装应该没难度吧,python3.3以上的版本应该也能执行该爬虫系统）
+mysql 5.7（5.6版本也能满足，需创建database:shrine，运行爬虫系统后会自动建表Shrine然后插入数据）
+
+（这些库使用pip安装）
+bs4（这个库可能安装比较麻烦，建议百度BeautifulSoup安装方法）
+codecs
+requests
+pymysql
+
+（以下是python自带库）
+os
+time
+datetime
+shutil
+re
+
+----------------------------------------tag----------------------------------------  
+执行命令：
+进入Glazed_Shrine,同名下有：文件夹Glazed_Shrine与Glazed_Shrine.log与scrapy.cfg
+在命令行中执行:scrapy crawl GlazedShrine
+运行完毕之前，别关闭终端以及计算机

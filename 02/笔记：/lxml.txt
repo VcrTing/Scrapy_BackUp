@@ -1,0 +1,21 @@
+
+----------------------------------------tag----------------------------------------
+例子：
+<book>
+    <bo a='x'>
+        <m>m</m>
+        <n>n</n>
+    </bo>
+</book>
+找m的值:/book/bo[@a='x']/m
+
+----------------------------------------tag----------------------------------------
+课程例子：爬取贴吧图片
+所用的技术：requests
+涉及xpath:http://www.w3school.com.cn/xpath/index.asp（语法网）
+tieXpath = '//*[@id="thread_list"]/li/div/div[2]/div[1]/div[1]/a/@href'
+imgXpath = '//*[@class="BDE_Image"]/@src'
+Xpath！= '//div[@data-value!="footer"]/p/text()'
+
+
+

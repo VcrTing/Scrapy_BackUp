@@ -1,0 +1,15 @@
+这是一个测试模块：https://docs.python.org/2/library/unittest.html
+
+----------------------------------------tag----------------------------------------
+class XX(unittest.TestCase):
+    #必须要定义三个方法
+    #除了setUp方法、tearDown、魔法方法，其他方法都要已test开头！！！
+
+    def setUp(self):#开始
+        pass
+
+    def testDouyu(self):
+        pass
+
+    def tearDown(self):#结束
+        pass

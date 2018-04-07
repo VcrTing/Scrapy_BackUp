@@ -1,0 +1,47 @@
+
+----------------------------------------tag----------------------------------------
+
+Selenium:WEB自动化测试工具
+PhantomJS:基于Webkit的‘无界面’浏览器
+Css选择器：BeautifulSoup4
+1、Tag 's name attrs
+2、NavigableString
+3、BeautifulSoup
+4、Comment
+
+例子：bs4组合查找soup.select('p .class #ids')
+
+----------------------------------------tag----------------------------------------
+解析库可用种类：lxml、html.parser
+
+----------------------------------------tag----------------------------------------
+可以获取_xsrf，跨站请求攻击的值
+跨站ta通常伪装受信任的用户，盗取用户信息，欺骗WEB服务器等
+所以网站使用隐藏MD5加密的字符串，来匹配用户信息
+
+----------------------------------------tag----------------------------------------
+Unix时间戳：
+2017年时,14开头长数字一般是Unix时间戳（意思是从1970到现在经过多少秒）,
+可以用来组合出带有时间戳的url,使用python3.time.time()即可获取时间戳～
+
+----------------------------------------tag----------------------------------------
+html.parser实例：soup = BeautifulSoup('x.html','html.parse')
+1、
+根据name=source获取某input框中的value值：
+text = soup.find('header').find('h1').find('a').get_text()
+str = soup.find(attrs={'name':'source',})['value']
+list = soup.find_all('h1',{'name':'source',})
+    text = list[index]['value']
+
+#zip方法，将list1,list2合并为一个元祖
+tuple = zip(list1,list2)
+2、
+获取所有a标签的href：
+href_list = []
+hrefs = soup.select('a')
+for i in hrefList:
+    href_list.append(i)
+==>（使用列表表达式）简化后
+href_list = [i['href'] for i in soup.select('a')]  
+
+3、从标签中获取文本：tag.get_text()

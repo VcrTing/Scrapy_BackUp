@@ -1,0 +1,10 @@
+
+----------------------------------------tag----------------------------------------
+在linux下写python2.7需要在第一行指定coding:utf-8
+在windows下写python2.7则写coding:gp936
+
+----------------------------------------tag----------------------------------------
+scrapy里指定全局utf-8
+    import sys
+    reload(sys)
+    sys.setdefaultencoding('utf-8)

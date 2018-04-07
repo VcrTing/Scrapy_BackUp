@@ -1,0 +1,35 @@
+　　AMD在推出了Vega 10显卡之后，接下来就应该要发布全新的Vega显卡，而现在有网友在Linux数据库中发现了AMD全新的Vega 20显卡的痕迹，看起来AMD应该是将Vega 20显卡制造出来了。
+　　在Linux驱动数据库中，总共出现了六款显卡的ID，分别是：
++ {0x1002， 0x66A0， PCI_ANY_ID， PCI_ANY_ID， 0， 0， CHIP_VEGA20}，
++ {0x1002， 0x66A1， PCI_ANY_ID， PCI_ANY_ID， 0， 0， CHIP_VEGA20}，
++ {0x1002， 0x66A2， PCI_ANY_ID， PCI_ANY_ID， 0， 0， CHIP_VEGA20}，
++ {0x1002， 0x66A3， PCI_ANY_ID， PCI_ANY_ID， 0， 0， CHIP_VEGA20}，
++ {0x1002， 0x66A7， PCI_ANY_ID， PCI_ANY_ID， 0， 0， CHIP_VEGA20}，
++ {0x1002， 0x66AF， PCI_ANY_ID， PCI_ANY_ID， 0， 0， CHIP_VEGA20}，
+　　目前在Linux数据库中也只有这六款显卡可以被查询到，不过考虑到现在仅仅是4月份，相信距离AMD发布全新的Vega 20显卡还有很长的时间，有消息称AMD在Vega 20显卡上将会搭载全新的7nm制程工艺。不过按照Vega 10的节奏，AMD将会在Linux驱动出现三个月后正式推出新一代的显卡，也就是说大家可以在7月份看到新一代显卡诞生了。
+“掌”握科技鲜闻  （微信搜索techsina或扫描左侧二维码关注）
+新浪科技
+新浪科技为你带来最新鲜的科技资讯
+苹果汇
+苹果汇为你带来最新鲜的苹果产品新闻
+新浪众测
+新酷产品第一时间免费试玩
+新浪探索
+提供最新的科学家新闻，精彩的震撼图片
+电话：400-690-0000 欢迎批评指正
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+Copyright © 1996-2018 SINA Corporation
+All Rights Reserved 新浪公司 
+
+http://tech.sina.com.cn/notebook/pad/2018-02-01/doc-ifyreyvz8086325.shtml

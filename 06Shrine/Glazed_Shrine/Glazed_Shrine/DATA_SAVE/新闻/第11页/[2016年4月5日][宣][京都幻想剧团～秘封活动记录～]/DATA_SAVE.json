@@ -1,0 +1,183 @@
+{'
+
+item_title': '[宣][京都幻想剧团～秘封活动记录～]', '
+
+item_content': '
+
+前几天在哔哩哔哩上看到了推荐，于是看了下，CV表炸了boom！！！视频的质量看上去也是不错的，同时这部作品是国人创作，我感觉很是难得，于是就打算宣传一下啦，嘛，大家应该都看过这个了，至于售价嘛，我感觉学生党还是有点难以负担的吧。
+
+公式配音版 宣传PV
+
+\r
+
+\t\t#popuppress-20495 {\r
+
+\t\t\twidth: 820px;\r
+
+\t\t\theight: auto;\r
+
+\t\t\tmargin-top: 0px;\r
+
+\t\t}\r
+
+\t\t#popuppress-20495.pps-border-true {\r
+
+\t\t\t-webkit-border-radius: 7px;\r
+
+\t\t\t-moz-border-radius: 7px;\r
+
+\t\t\tborder-radius: 7px;\r
+
+\t\t}\r
+
+\t\t#popuppress-20495 .pps-wrap {\r
+
+\t\t\t-webkit-border-radius: 5px;\r
+
+\t\t\t-moz-border-radius: 5px;\r
+
+\t\t\tborder-radius: 5px;\r
+
+\t\t}\r
+
+\t\r
+
+\t
+
+\r
+
+jQuery(document).ready(function($){\r
+
+\t\tjQuery(".pps-button-popup-20495").bind("click", function(e) {\r
+
+\t\t\te.preventDefault();\r
+
+\t\t\t\r
+
+\t\t\tjQuery("#pps-slider-20495").flexslider({\r
+
+\t\t\t\tslideshow: true,\r
+
+\t\t\t\tslideshowSpeed: 6000,\r
+
+\t\t\t\tanimationSpeed: 500,\r
+
+\t\t\t\tcontrolNav: true,\r
+
+\t\t\t\tdirectionNav: true,\r
+
+\t\t\t\tpauseOnHover: true,\r
+
+\t\t\t\tnamespace: "pps-",\r
+
+\t\t\t\tbefore: function(){\r
+
+\t\t\t\t\tpauseVideosPopupPress(20495);\r
+
+\t\t\t\t}\r
+
+\t\t\t});\r
+
+\t\t\tjQuery("#popuppress-20495").bPopup({\r
+
+\t\t\t\tcloseClass: "pps-close-link",\r
+
+\t\t\t\teasing: "linear",\r
+
+\t\t\t\tmodalClose: true,\r
+
+\t\t\t\tmodalColor: "#000000",\r
+
+\t\t\t\topacity: 0.1,\r
+
+\t\t\t\tpositionStyle: "absolute",\r
+
+\t\t\t\tposition: ["auto",80],\r
+
+\t\t\t\tspeed: 300,\r
+
+\t\t\t\ttransition: "fadeIn",\r
+
+\t\t\t\tzIndex: 9999,\r
+
+\t\t\t\tonOpen: function(){\r
+
+\t\t\t\t\tcontentFromIdPopupPress(20495,"");\r
+
+\t\t\t\t\tupdateViewsPopupPress(20495);\r
+
+\t\t\t\t},\r
+
+\t\t\t\tonClose: function(){\r
+
+\t\t\t\t\tpauseVideosPopupPress(20495);\r
+
+\t\t\t\t},\r
+
+\t\t\t});\r
+
+\t\t});\t\t\r
+
+});\r
+
+', '
+
+item_url': 'https://www.llss.pw/wp/20498.html', '
+
+item_type': '新闻', '
+
+comment_num': '72', '
+
+item_time': '2016年4月5日', '
+
+item_author': 'PAD长', '
+
+rsc_msg_all': ['
+
+前几天在哔哩哔哩上看到了推荐，于是看了下，CV表炸了boom！！！视频的质量看上去也是不错的，同时这部作品是国人创作，我感觉很是难得，于是就打算宣传一下啦，嘛，大家应该都看过这个了，至于售价嘛，我感觉学生党还是有点难以负担的吧。', '
+
+', '\r
+
+\t', '\r
+
+', 'CV表', '
+
+玛艾露贝莉.赫恩（cv.花泽香菜）', '
+
+宇佐见莲子（cv.喜多村英梨）', '
+
+蓬莱山辉夜（cv.能登麻美子）', '
+
+八意永琳（cv.岛本须美）', '
+
+绵月依姬（cv.川澄绫子）', '
+
+绵月丰姬（cv.户松遥）', '
+
+月夜见（cv.柴田秀胜）', '
+
+都久亲王（cv.井上和彦）', '
+
+细爱亲王（cv.小山力也）', '
+
+八云紫（cv.井上喜久子）', '
+
+伊吹萃香（cv.清水爱）', '
+
+西行寺幽幽子（cv.茅野爱衣）', '
+
+博丽灵梦（cv.今井麻美）', '
+
+雾雨魔理沙（cv.阿澄佳奈）', '京都幻想剧团，是一个以制作东方Project的二次同人动画为主的东方同人社团。', '
+
+除动画外，也会制作东方同人漫画等其他东方同人内容。', '社团简称一般称呼为 幻想剧团 或 剧团。', '社团成立于2014年上半年，并从那时起开始制作东方二次同人动画。', '
+
+http://kyotofantasytroupe.net/'], '
+
+ratings_num': '4.88', '
+
+img_path': '/home/vcrting/文档/Scrapy/06Shrine/Glazed_Shrine/Glazed_Shrine/DATA_SAVE/新闻/第11页/[2016年4月5日][宣][京都幻想剧团～秘封活动记录～]/img', '
+
+pipeline_use_num': 1021, '
+
+get_time': '2018-04-06 22:57:55'}

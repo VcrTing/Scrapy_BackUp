@@ -1,0 +1,143 @@
+----------------------------------------tag----------------------------------------
+Scrapy使用了Twisted异步网络框架！！！
+twisted的对手：T*
+
+----------------------------------------tag----------------------------------------
+Scrapy-Engine: 引擎 = 负责4个功能件的通讯
+1、Spider: 爬虫 = 分析处理response
+2、Scheduler: 调度器 = 整理队列
+3、Downloader: 下载中间件（下载、代理middlewares） = 下载来自引擎请求，再给数据引擎，引擎交给spider
+还可执行下载中间件
+4、item-Pipline: 数据处理（管道文件） = 对数据进行后期处理
+。
+
+----------------------------------------tag----------------------------------------
+新建项目:scrapy startproject Name
+
+在项目里建爬虫:scrapy genspider Name Url
+建爬虫指定模板:scrapy genspider -t crawl Name ModuleName
+
+执行爬虫:scrapy crawl Name
+
+----------------------------------------tag----------------------------------------
+知识：
+extract()方法 将xpath匹配出的数据转化为unicode字符串
+
+scrapy中重新发请求的方法：
+    yield scrapy.Request(Url,callback = Def（回调函数）)
+    将请求重新发给调度器入队列，出队列，交给下载器下载
+    dont_fileter = True
+    是否忽略域组的影响
+
+拿取setting文件：from scrapy.utils.project import get_project_settings
+
+----------------------------------------tag----------------------------------------
+解释：
+scrapy.cfg,是你这个项目的一些基础设置
+    [setting]：设置你项目的一些功能，如：并发30个，设置分布式去重
+
+__init__文件，不能删...
+
+item里面的数据都是str类型
+
+Pipline里面proces_item方法必须写
+
+setting配置 除了一些已有变量，你也可以自己设定
+
+----------------------------------------tag----------------------------------------
+Pipline里面是数据处理
+使用之前要先在setting里面打开管道！！！
+里面有这些方法
+    __init__()#初始化
+    open_spider()#开始之前执行
+    process_item()#数据处理，有要求要 return item
+    close_item()#关闭之前执行
+pipelines.image里面提供了scrapy保存图片的方法，
+
+----------------------------------------tag----------------------------------------
+Setting里面的内容：https://www.cnblogs.com/cnkai/p/7399573.html
+
+BOT_NAME = '爬虫名'
+
+SPIDER_MODULES = '爬虫位置'
+NEWSPIDER_MODULE = '爬虫位置'
+
+ROBOTSTXT_OBEY = True 是否遵循robot协议
+
+CONCURRENT_REQUESTS = 32 爬虫并发量 默认16
+
+DOWNLOAD_DELAY = 3 下载延迟 3秒 是为了防止下载过快，下载不全
+
+CONCURRENT_REQUESTS_PER_DOMAIN = 16
+CONCURRENT_REQUESTS_PER_IP = 16 下载请求与ip段
+
+COOKIES_ENABLED = False 是否启动cookie 
+登录后用cookie 不用登录尽量不用cookie
+
+TELNETCONSOLE_ENABLED = False 访问电线？
+
+DEFAULT_REQUEST_HEADERS = {
+   'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+   #'Accept-Language': 'en',定
+} 全局请求报头，你可以依情添加与报头相关的数据
+高级一点的请求头用法 是在下载中间件内随机生成请求头！
+
+SPIDER_MIDDLEWARES = {
+    'one.middlewares.OneSpiderMiddleware': 543,
+} 爬虫中间件 不常用 后方的数据是执行优先级，数字越小优先级越高[1-1000)
+
+DOWNLOADER_MIDDLEWARES = {
+    'one.middlewares.OneDownloaderMiddleware': 543,
+} 下载中间件
+
+EXTENSIONS = {
+    'scrapy.extensions.telnet.TelnetConsole': None,
+} 基本不用
+
+ITEM_PIPELINES = {
+    'one.pipelines.OnePipeline': 300,
+} 管道文件 决定下载的数据如何处理的
+
+下面的东西，一般不用
+# Enable and configure the AutoThrottle extension (disabled by default)
+# See https://doc.scrapy.org/en/latest/topics/autothrottle.html
+AUTOTHROTTLE_ENABLED = True
+# The initial download delay
+AUTOTHROTTLE_START_DELAY = 5
+# The maximum download delay to be set in case of high latencies
+AUTOTHROTTLE_MAX_DELAY = 60
+# The average number of requests Scrapy should be sending in parallel to
+# each remote server
+AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
+# Enable showing throttling stats for every response received:
+AUTOTHROTTLE_DEBUG = False
+
+# Enable and configure HTTP caching (disabled by default)
+# See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
+HTTPCACHE_ENABLED = True
+HTTPCACHE_EXPIRATION_SECS = 0
+HTTPCACHE_DIR = 'httpcache'
+HTTPCACHE_IGNORE_HTTP_CODES = []
+HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+如何获取扩展值：
+    from scrapy.utils.project import get_project_settings
+    IMAGES_STORE = get_project_settings().get('IMAGES_STORE')
+
+扩展setting值：
+    IMAGES_STORE = '（路径）' 图片保存路径
+
+    LOG_FILE = '(日志文件保存的路径，默认为None（使用标准错误输出类型：error）)' 如：theLog.log
+    LOG_LEVEL = '（日志等级）' 如果为INFO，意思是高于或等于INFO等级的日志会被储存起来
+        日志等级：INFO -> DEBUG -> WARNING -> ERROR -> CRITICAL
+
+----------------------------------------tag----------------------------------------
+课程例子：爬取传智博客所有的老师信息：http://www.itcast.cn/channel/teacher.shtml#apython
+    学会使用Scrapy
+
+课程例子：爬取腾讯招聘页面信息：https://hr.tencent.com/position.php?&start=10#a
+    #a是锚点，url被点击，页面跳到哪个地方？
+
+课程例子：爬取斗鱼json数据，解析存入本地：http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=2$offset=1
+    学会使用Scrapy存储图片

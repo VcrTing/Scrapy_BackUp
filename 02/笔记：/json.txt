@@ -1,0 +1,28 @@
+
+----------------------------------------tag----------------------------------------
+Python中原始类型与实际json类型转化对照：
+dict -> object
+list,tuple -> array
+str,unicode -> string
+int,long,float -> number
+True,False -> true,false
+None -> null
+
+----------------------------------------tag----------------------------------------
+Pyhton 转 json 的方法：
+import json
+--通常设置False来禁用dumps默认的ascii格式，转为unicode格式：
+json_type = json.dumps(pyhton_type, ensure_ascii=False)
+
+json 转 Python 的方法：（unicode格式字符串）
+pyton_type = json.load(json_type)
+
+----------------------------------------tag----------------------------------------
+相对于Xpath,json有JSONPath
+你可以去网上查查JSONPath
+
+----------------------------------------tag----------------------------------------
+学习例子：去www.lagou.com/lbs/getAllCitySearchLabels.json获取此json文件来练习jsonpath操作
+import json
+import jsonpath
+xxx

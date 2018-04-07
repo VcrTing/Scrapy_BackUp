@@ -1,0 +1,24 @@
+
+
+----------------------------------------tag----------------------------------------
+import json去解析json文件报错：
+data = json.loads(response.text['data'])
+TypeError: string indices must be integers
+
+----------------------------------------tag----------------------------------------
+scrapy使用pipeline存图片：
+rename(old, new)
+FileNotFoundError: [Errno 2] No such file or 
+    directory: 'img/full/64f054f9f5b8d5be264bf6f04cf005b3558f1c50.jpg' -> 'img/full/64f05你的女友992840670.jpg'
+这个问题至今未解决！！！
+
+----------------------------------------tag----------------------------------------
+CrawlSpider里面，Rule's collback='方法' 的方法并没有执行，导致无法爬取，再而无法调用pipeline
+解决方法：
+    1、类中有无继承CrawlSpider
+    2、类中删掉parse(self,response)方法
+    3、callback=有无正确对应
+    4、follow=True表示跟随url，follow=False表示不跟随url（不对此url爬取）
+
+----------------------------------------tag----------------------------------------
+Pipeline里面接收spider里面传来的item,

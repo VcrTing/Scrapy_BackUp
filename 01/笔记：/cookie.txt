@@ -1,0 +1,27 @@
+Cookie是指某些网站服务器为了辨别用户身份和进行Session跟踪，而储存在用户浏览器上的文本文件，
+Cookie可以保持登录信息到用户下次与服务器的会话，
+在爬虫的典型引用是判断用户是否已经登录网站，用户可能会得到提示，是否在下一次进入此网站时保留用户信息
+以便简化登录手续。
+
+----------------------------------------tag----------------------------------------
+使用cookielib库、HTTPCookieProcessor处理器
+
+cookielib:保存cookie，（python3 http.cookiejar）
+用到的对象=>
+CookieJar（不需要本地交互）、
+FileCookieJar、
+MozillaCoiokieJar（可本地cookie交互）、
+LWPCookieJar（可本地交互，且支持最新版cookie）
+
+HTTPCookieProcessor:读取cookie,构造Handler
+
+----------------------------------------tag----------------------------------------
+登录的两个过程：
+1、帐号密码的Post过程
+2、登录后生成cookie，把cookie保存起来
+
+人人网的登录安全接口：url = 'http://www.renren.com/PLogin.do'
+
+----------------------------------------tag----------------------------------------
+如何获取动态token
+以及用自动化测试直接指向登录

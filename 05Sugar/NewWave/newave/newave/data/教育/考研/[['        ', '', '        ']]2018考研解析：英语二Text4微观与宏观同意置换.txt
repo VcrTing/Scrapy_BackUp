@@ -1,0 +1,28 @@
+　　2018年考研英语二的第四篇传统阅读，整体阅读难度较低，题型设置上以细节为主，辅以主旨题。这也体现了历年英语二的一个命题规律：主要考查考生对微观细节的把握，以及对全篇文章主旨的一个掌控。 老师将从微观与宏观的层面来给大家解析下，这篇文章的命题要点与解题考点。
+　　（一） 微观题：回文定位，同意置换
+　　解答微观细节题解题步骤相对来说比较直接，但其关键是定位准确：第一步审题，划定题目的关键词。第二步根据关键词回文定位，锁定答案出处。第三步，对比答案与选项的一一映射关系，一般英语二的选项设置上都是同义改写。纵观我们2018年的text 4，前面四道题都是细节题，36题直接考细节，37题干上考的是研究内容证明研究结果，研究结果回文定位还是对原文细节的一个把握。38，39都是观点细节题。以36题为例，先审题干，划定关键词：the key，master the art of deep work。 再根据关键词回文定位，发现第二段整段都是在讲master the art of deep work，再根据the key直接锁定定位句：Whichever approach， the key is to determine you lengthy of focus time and stick to it。 最后来对比选项与原文，发现选项A刚好是对这句的同义改写： keep to对应原文的stick to， focus time对应原文it，it代指同一句and前的focus time。 选项A与原文不仅是同义替换，而且是一一映射的关系。故可以直接确定选项A正确选项。 同理，该篇文章剩下几道细节题的正确选项都是对原文的一个同意置换。37题的选项D， detailed plans may not be as fruitful as expected， 是对原文：they were wrong： the detailed daily plans demotivated students的同义改写，原文demotivate， de表示否定，直接对应选项may not。38题的选项D， an essential factor in accomplishing any work是对原文：necessary to getting any work done的同义改写，essential对应necessary。 39题的选型B，can bring about greater efficiency ，是对原文tend to be more efficient的同意置换。由此可见，英语二的复习与备考，要重在积累相关同义，近义，反义词的总结。
+　　（二） 宏观题： 抓大放小，框架为王
+　　这次英语二的第四篇文章最后一道题考核的是主旨题。解答主旨题，需要对文章的框架结构上进行宏观把握，这时候读文章就重在中心，而忽略细节。这篇文章开篇就是介绍一本书，用书来引出话题，典型的抛砖引玉文章类型。这样的文章类型其实我们考研的常客，比如英2013年英语一的text 1，2014英语二的text3，都是通过介绍一本书，或者一个概念引出作者要讨论的主题。解答抛砖引玉题的直接看砖，也就是例子下的下面的内容就可以。这篇文章第一段是介绍书，所以直接看第二段首句：there are a number of approaches to mastering the art of deep work， 而选项B，approaches to getting more done in less time， getting more done in less time在第四段首句也有体现，就是对第二段首句的deep work同义改写。
+　　简而言之，同意置换一直都是我们英语二选项设置的一大特点。在此，祝愿各位18届的考生旗开得胜！
+2018考研：
+　　更多信息请访问：
+
+					
+
+					
+
+				
+（收录
+所大学、
+个专业分数线信息、提供
+省专家服务）
+三步报志愿
+分数线查询
+找专家报志愿
+
+            
+ Copyright 
+ 1996-2018 SINA Corporation, All Rights Reserved 
+ 新浪公司 
+
+http://edu.sina.com.cn/kaoyan/2013-04-03/1808376062.shtml

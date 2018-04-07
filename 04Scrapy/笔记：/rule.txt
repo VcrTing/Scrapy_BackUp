@@ -1,0 +1,88 @@
+----------------------------------------tag----------------------------------------
+rules 运行原理：
+    CreawlSpider将用户定义的LinkExtractor类放入parse函数来进行处理，
+    处理后再调用Request将url给Rule(的callback='youParse方法')，
+    将response给youParse方法执行并处理！！！
+
+    若链接相同，则只处理第一个链接，
+
+    如果Rule里面没有callback = 你的Parse方法，那么符合allow的链接只提取不处理
+    allow_domains是很重要的，否则Scrapy就可能爬取到别的网站符合allow正则表达式的链接了。
+
+----------------------------------------tag----------------------------------------
+使用scrapy shell 书写如何使用LinkExtractor：
+scrapy shell https://hr.tencent.com/position.php
+
+from scrapy.linkextractors import LinkExtractor
+
+link_list = LinkExtractor(allow=('start=\d+'))
+
+link_list.extract_links(response)
+
+结果会打印出Link数组，该数组匹配response响应页面内的所有含 start=任意数字 的url
+此功能自动去重！！！
+
+----------------------------------------tag----------------------------------------
+rules的Rule对象：Rule对爬取网站的动作定义了特定操作
+class scrapy.contrib.spiders.Rule(
+    link_extractor（LinkExtractor对象，用于定义需要从页面提取的链接）,
+    callback = '方法名'（避免使用parse方法来覆盖crawl spider有逻辑的parse方法）
+    cb_kwargs = None
+    follow = None（布尔值，指定了从response提取出来的链接是否需要跟进？）
+    process_links = '方法名(links)'（传送给方法的值是LinkExtract对象匹配到的链接列表）
+    process_request = None（不常用）
+)
+
+----------------------------------------tag----------------------------------------
+scrapy.linkextractors.LinkExtractor
+    allow:满足括号中正则表达式的值
+    deny:不满足正则就提取
+    allow_domains、deby_domains:满足的链接的domains、不满足的链接的domains
+    restrict_xpaths:使用xpath表达式，和allow共同作用过滤链接
+    restrict_css = ('.btn','.btn-premary')
+        LinkExtractor语法中?需要\?处理（转义处理），
+
+----------------------------------------tag----------------------------------------
+课程例子：爬取传智博客所有的老师信息：http://wz.sun0769.com/html/top/report.shtml
+    这个网站的反爬虫技术比较出彩
+    多个Rule规则
+    学会使用crawlSpider处理分页且跟进分页，跟进分页页面中的反馈信息链接，且获取文本
+    学会使用codecs来处理本地数据
+    学会灵活处理文本信息
+
+----------------------------------------tag----------------------------------------
+login:
+    绝招：使用手动登录后的cookie来登录
+    简单登录 - form表单：
+    def start_request(self):
+        yield scrapy.FormRequest(url = loginUrl, formdata = formData, callback = function)
+    
+    简单登录 - cookies值
+    def start_requests(self):
+        for url in self.start_urls :
+            yield scrapy.FormRequest(
+                url = url,
+                cookies = SeleniumLogin(),# 使用selenium来登录，登录后返回登录后的cookies
+                callback = self.parsePage# 处理登录后的页面
+            )
+
+    def parsePage(self,response):
+        print(response.body)
+
+    复杂登录：
+    def parse(self,response):
+        yield scrapy.FormRequest(response, formdata = formData, callback = function)
+
+    滑块验证登录：
+        使用selenium登录，手动移动滑块
+
+----------------------------------------tag----------------------------------------
+scrapy-redis 连接redis
+    REDIS_HOST = 'localhost'                            # 主机名
+    REDIS_PORT = 6379                                   # 端口
+    REDIS_URL = 'redis://user:ZT123zlt@localhost:6379'  # 连接URL（优先于以上配置）
+    REDIS_PARAMS  = {}                                  # Redis连接参数             默认：REDIS_PARAMS = {'socket_timeout': 30,'socket_connect_timeout': 30,'retry_on_timeout': True,'encoding': REDIS_ENCODING,}）
+    REDIS_PARAMS['redis_cls'] = 'myproject.RedisClient' # 指定连接Redis的Python模块  默认：redis.StrictRedis
+    REDIS_ENCODING = "utf-8"                            # redis编码类型             默认：'utf-8'
+
+    
