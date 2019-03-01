@@ -1,0 +1,252 @@
+2019-03-01 18:34:24 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: Fk5378)
+2019-03-01 18:34:24 [scrapy.utils.log] INFO: Versions: lxml 4.3.1.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.2 (default, Dec 29 2018, 00:00:04) - [Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.5, Platform Darwin-18.2.0-x86_64-i386-64bit
+2019-03-01 18:34:24 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'Fk5378', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'Fk5378.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Fk5378.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['Fk5378.spiders']}
+2019-03-01 18:34:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-03-01 18:34:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'Fk5378.middleware.RandomHeader',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'Fk5378.middlewares.Fk5378DownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-03-01 18:34:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-03-01 18:34:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['Fk5378.pipelines.PathPipeline']
+2019-03-01 18:34:25 [scrapy.core.engine] INFO: Spider opened
+2019-03-01 18:34:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-03-01 18:34:25 [Fk5378] INFO: Spider opened: Fk5378
+2019-03-01 18:35:25 [scrapy.extensions.logstats] INFO: Crawled 17 pages (at 17 pages/min), scraped 9 items (at 9 items/min)
+2019-03-01 18:36:21 [scrapy.core.scraper] ERROR: Error processing {'rsc_item': "{'author': '\\r\\n'\n"
+             "           '                        上傳作者：\\r\\n'\n"
+             "           '                        \\n'\n"
+             "           '\\r\\n'\n"
+             "           '                            夜有所濕\\r\\n'\n"
+             "           '                        \\n',\n"
+             " 'cover': "
+             "'http://www.fk5378.com/upload/al/7Gi/2471478955e54232a1479a2d833e399a.jpg',\n"
+             " 'item_url': 'http://www.fk5378.com/video/4431',\n"
+             " 'publish_date': '\\r\\n'\n"
+             "                 '                        上傳日期：\\r\\n'\n"
+             "                 '                        2019-02-25\\r\\n'\n"
+             "                 '                    ',\n"
+             " 'see_num': '\\r\\n'\n"
+             "            '                        瀏覽次數：\\r\\n'\n"
+             "            '                        \\r\\n'\n"
+             "            '                        208,400\\r\\n'\n"
+             "            '                    ',\n"
+             " 'tags': ['\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    主播\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    娛樂\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    學生\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    本土\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    脫衣\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    視訊寫真\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                    '],\n"
+             " 'time_num': '\\r\\n'\n"
+             "             '                        影片長度：\\r\\n'\n"
+             "             '                        00:08:33\\r\\n'\n"
+             "             '                    ',\n"
+             " 'title': '\\r\\n'\n"
+             "          '                [學生妹系列] "
+             "18歲處女直播~第一次露露乳頭就很害羞了O///O\\r\\n'\n"
+             "          '            ',\n"
+             " 'vedio_url': "
+             "'https://video2.fkvideo.cc/e3b320a6f59e49a5b0fca90c62a2d417.mp4'}",
+ 'save_path': '/Users/zhengyidan/VcrTing/Code/Scrapy_BackUp/07Video/Fk5378/DATA_SAVE/學生/2019-02',
+ 'sys_item': "{'pipeline_use_num': 23,\n"
+             " 'spider_start_time': '2019-03-01 18:34:24',\n"
+             " 'spider_use_time': '2019-03-01 18:34:24'}"}
+Traceback (most recent call last):
+  File "/anaconda3/envs/py37/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/zhengyidan/VcrTing/Code/Scrapy_BackUp/07Video/Fk5378/Fk5378/pipelines.py", line 53, in process_item
+    encoding='utf-8'
+  File "/anaconda3/envs/py37/lib/python3.7/codecs.py", line 898, in open
+    file = builtins.open(filename, mode, buffering)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/zhengyidan/VcrTing/Code/Scrapy_BackUp/07Video/Fk5378/DATA_SAVE/學生/2019-02/[學生妹系列]18歲處女直播~第一次露露乳頭就很害羞了O///O/[學生妹系列]18歲處女直播~第一次露露乳頭就很害羞了O///O.json'
+2019-03-01 18:36:25 [scrapy.extensions.logstats] INFO: Crawled 33 pages (at 16 pages/min), scraped 22 items (at 13 items/min)
+2019-03-01 18:37:25 [scrapy.extensions.logstats] INFO: Crawled 50 pages (at 17 pages/min), scraped 37 items (at 15 items/min)
+2019-03-01 18:38:26 [scrapy.extensions.logstats] INFO: Crawled 68 pages (at 18 pages/min), scraped 54 items (at 17 items/min)
+2019-03-01 18:39:25 [scrapy.extensions.logstats] INFO: Crawled 84 pages (at 16 pages/min), scraped 68 items (at 14 items/min)
+2019-03-01 18:40:25 [scrapy.extensions.logstats] INFO: Crawled 100 pages (at 16 pages/min), scraped 84 items (at 16 items/min)
+2019-03-01 18:41:25 [scrapy.extensions.logstats] INFO: Crawled 114 pages (at 14 pages/min), scraped 98 items (at 14 items/min)
+2019-03-01 18:42:25 [scrapy.extensions.logstats] INFO: Crawled 129 pages (at 15 pages/min), scraped 113 items (at 15 items/min)
+2019-03-01 18:43:25 [scrapy.extensions.logstats] INFO: Crawled 145 pages (at 16 pages/min), scraped 128 items (at 15 items/min)
+2019-03-01 18:44:25 [scrapy.extensions.logstats] INFO: Crawled 161 pages (at 16 pages/min), scraped 144 items (at 16 items/min)
+2019-03-01 18:45:25 [scrapy.extensions.logstats] INFO: Crawled 178 pages (at 17 pages/min), scraped 161 items (at 17 items/min)
+2019-03-01 18:46:25 [scrapy.extensions.logstats] INFO: Crawled 194 pages (at 16 pages/min), scraped 177 items (at 16 items/min)
+2019-03-01 18:47:25 [scrapy.extensions.logstats] INFO: Crawled 210 pages (at 16 pages/min), scraped 193 items (at 16 items/min)
+2019-03-01 18:47:36 [scrapy.core.scraper] ERROR: Error processing {'rsc_item': "{'author': '\\r\\n'\n"
+             "           '                        上傳作者：\\r\\n'\n"
+             "           '                        \\n'\n"
+             "           '\\r\\n'\n"
+             "           '                            夜有所濕\\r\\n'\n"
+             "           '                        \\n',\n"
+             " 'cover': "
+             "'http://www.fk5378.com/upload/fc/RIG/1c4dad9187db45b8b0bb47fcd42fb4b7.jpg',\n"
+             " 'item_url': 'http://www.fk5378.com/video/3852',\n"
+             " 'publish_date': '\\r\\n'\n"
+             "                 '                        上傳日期：\\r\\n'\n"
+             "                 '                        2019-02-10\\r\\n'\n"
+             "                 '                    ',\n"
+             " 'see_num': '\\r\\n'\n"
+             "            '                        瀏覽次數：\\r\\n'\n"
+             "            '                        \\r\\n'\n"
+             "            '                        752,075\\r\\n'\n"
+             "            '                    ',\n"
+             " 'tags': ['\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    做愛\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    口交\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    口爆\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    娛樂\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    學生\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    打砲\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    日本\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    正妹\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                                ',\n"
+             "          '\\r\\n'\n"
+             "          '                                    素人\\r\\n'\n"
+             "          '                                ',\n"
+             "          '\\r\\n                            ',\n"
+             "          '\\r\\n                    '],\n"
+             " 'time_num': '\\r\\n'\n"
+             "             '                        影片長度：\\r\\n'\n"
+             "             '                        00:42:26\\r\\n'\n"
+             "             '                    ',\n"
+             " 'title': '\\r\\n'\n"
+             "          '                [日本] "
+             "大眼正妹乖巧又聽話~任憑學長的操弄~沒有被口爆過覺得很害羞Q//Q\\r\\n'\n"
+             "          '            ',\n"
+             " 'vedio_url': "
+             "'http://video2.fkvideo.cc/28355e1ce65f4a099f630c476bcc56b0.mp4'}",
+ 'save_path': '/Users/zhengyidan/VcrTing/Code/Scrapy_BackUp/07Video/Fk5378/DATA_SAVE/學生/2019-02',
+ 'sys_item': "{'pipeline_use_num': 198,\n"
+             " 'spider_start_time': '2019-03-01 18:34:24',\n"
+             " 'spider_use_time': '2019-03-01 18:34:24'}"}
+Traceback (most recent call last):
+  File "/anaconda3/envs/py37/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/zhengyidan/VcrTing/Code/Scrapy_BackUp/07Video/Fk5378/Fk5378/pipelines.py", line 53, in process_item
+    encoding='utf-8'
+  File "/anaconda3/envs/py37/lib/python3.7/codecs.py", line 898, in open
+    file = builtins.open(filename, mode, buffering)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/zhengyidan/VcrTing/Code/Scrapy_BackUp/07Video/Fk5378/DATA_SAVE/學生/2019-02/[日本]大眼正妹乖巧又聽話~任憑學長的操弄~沒有被口爆過覺得很害羞Q//Q/[日本]大眼正妹乖巧又聽話~任憑學長的操弄~沒有被口爆過覺得很害羞Q//Q.json'
+2019-03-01 18:48:25 [scrapy.extensions.logstats] INFO: Crawled 226 pages (at 16 pages/min), scraped 208 items (at 15 items/min)
+2019-03-01 18:49:25 [scrapy.extensions.logstats] INFO: Crawled 242 pages (at 16 pages/min), scraped 224 items (at 16 items/min)
+2019-03-01 18:50:25 [scrapy.extensions.logstats] INFO: Crawled 258 pages (at 16 pages/min), scraped 239 items (at 15 items/min)
+2019-03-01 18:51:25 [scrapy.extensions.logstats] INFO: Crawled 274 pages (at 16 pages/min), scraped 255 items (at 16 items/min)
+2019-03-01 18:52:26 [scrapy.extensions.logstats] INFO: Crawled 291 pages (at 17 pages/min), scraped 269 items (at 14 items/min)
+2019-03-01 18:53:25 [scrapy.extensions.logstats] INFO: Crawled 306 pages (at 15 pages/min), scraped 284 items (at 15 items/min)
+2019-03-01 18:54:25 [scrapy.extensions.logstats] INFO: Crawled 322 pages (at 16 pages/min), scraped 300 items (at 16 items/min)
+2019-03-01 18:55:26 [scrapy.extensions.logstats] INFO: Crawled 339 pages (at 17 pages/min), scraped 317 items (at 17 items/min)
+2019-03-01 18:56:26 [scrapy.extensions.logstats] INFO: Crawled 355 pages (at 16 pages/min), scraped 333 items (at 16 items/min)
+2019-03-01 18:57:26 [scrapy.extensions.logstats] INFO: Crawled 371 pages (at 16 pages/min), scraped 349 items (at 16 items/min)
+2019-03-01 18:57:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-03-01 18:57:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 125878,
+ 'downloader/request_count': 374,
+ 'downloader/request_method_count/GET': 374,
+ 'downloader/response_bytes': 5587919,
+ 'downloader/response_count': 374,
+ 'downloader/response_status_count/200': 374,
+ 'dupefilter/filtered': 114,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 3, 1, 10, 57, 38, 640389),
+ 'item_scraped_count': 352,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 31,
+ 'memusage/max': 77697024,
+ 'memusage/startup': 55279616,
+ 'request_depth_max': 6,
+ 'response_received_count': 374,
+ 'scheduler/dequeued': 373,
+ 'scheduler/dequeued/memory': 373,
+ 'scheduler/enqueued': 373,
+ 'scheduler/enqueued/memory': 373,
+ 'start_time': datetime.datetime(2019, 3, 1, 10, 34, 25, 16836)}
+2019-03-01 18:57:38 [scrapy.core.engine] INFO: Spider closed (finished)
